@@ -196,7 +196,7 @@ const Index = () => {
           <p className="text-xl mb-12 max-w-2xl mx-auto text-white/80">
             Запишитесь на пробное занятие и откройте для вашего ребенка мир безопасного и радостного плавания
           </p>
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]">
+          <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight">
             Записаться на пробное занятие
           </Button>
         </div>
