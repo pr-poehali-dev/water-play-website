@@ -26,7 +26,7 @@ const Index = () => {
           
           <Button 
             size="lg" 
-            className="bg-primary hover:bg-primary/90 text-white text-xl px-12 py-8 rounded-[20px] uppercase font-bold"
+            className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]"
             onClick={() => document.getElementById('programs')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Узнать больше
@@ -120,8 +120,8 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="text-center mt-16">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-xl px-12 py-8 rounded-[20px] uppercase font-bold">
+          <div className="text-center mt-16 px-4">
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]">
               Записаться на курс
             </Button>
           </div>
@@ -180,8 +180,8 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="text-center">
-            <Button size="lg" variant="outline" className="rounded-[20px] uppercase font-bold border-2 border-black">
+          <div className="text-center px-4">
+            <Button size="lg" variant="outline" className="rounded-[20px] uppercase font-bold border-2 border-black text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 w-full max-w-md mx-auto min-h-[60px]">
               Посмотреть все фото
             </Button>
           </div>
@@ -196,7 +196,7 @@ const Index = () => {
           <p className="text-xl mb-12 max-w-2xl mx-auto text-white/80">
             Запишитесь на пробное занятие и откройте для вашего ребенка мир безопасного и радостного плавания
           </p>
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-xl px-12 py-8 rounded-[20px] uppercase font-bold">
+          <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]">
             Записаться на пробное занятие
           </Button>
         </div>
