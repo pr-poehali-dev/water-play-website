@@ -134,16 +134,6 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="mt-16 text-center">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold max-w-md mx-auto min-h-[60px]"
-              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
-            >
-              Записаться на интенсив
-            </Button>
-          </div>
-          
           <div className="mt-24 px-4 max-w-3xl mx-auto" id="pricing">
             <div className="bg-white border-2 border-black rounded-[20px] p-8 mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 uppercase">Стоимость</h3>
@@ -232,17 +222,6 @@ const Index = () => {
               <p className="text-lg md:text-xl font-semibold text-center md:text-left">Понятную систему взаимодействия с ребенком с помощью игровой деятельности</p>
             </div>
           </div>
-          
-          <div className="mt-16 text-center">
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-2 border-black hover:bg-black hover:text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold max-w-md mx-auto min-h-[60px]"
-              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
-            >
-              Задать вопрос менеджеру
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -305,31 +284,6 @@ const Index = () => {
               className="rounded-[20px] uppercase font-bold border-2 border-black text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 w-full max-w-md mx-auto min-h-[60px]"
             >
               Посмотреть все фото
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-24 bg-gradient-to-b from-gray-900 to-black text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-6xl font-bold mb-12 uppercase">
-            Онлайн интенсив
-          </h2>
-          <div className="space-y-4">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-white text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight"
-              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
-            >
-              Записаться на интенсив
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-black text-sm md:text-lg px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight"
-              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
-            >
-              Задать вопрос менеджеру
             </Button>
           </div>
         </div>
