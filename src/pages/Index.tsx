@@ -20,9 +20,20 @@ const Index = () => {
             Игровая деятельность<br />в воде с детьми<br />от 0 до 5 лет
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
             Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
           </p>
+          
+          <div className="flex flex-col gap-3 mb-12 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-white/90 flex items-center justify-center gap-2">
+              <Icon name="Zap" className="text-primary" size={24} />
+              Старт сразу после оплаты
+            </p>
+            <p className="text-lg md:text-xl text-white/90 flex items-center justify-center gap-2">
+              <Icon name="Clock" className="text-primary" size={24} />
+              Доступ 4 месяца
+            </p>
+          </div>
           
           <Button 
             size="lg" 
@@ -43,11 +54,8 @@ const Index = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-8 uppercase">
             Что в интенсиве
           </h2>
-          <p className="text-xl text-center text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-center text-gray-600 mb-16 max-w-3xl mx-auto leading-relaxed">
             Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
-          </p>
-          <p className="text-lg text-center text-primary font-semibold mb-16">
-            Бонус интенсива: обновленный гайд по игрушкам
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
