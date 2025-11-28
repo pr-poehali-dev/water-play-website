@@ -41,10 +41,13 @@ const Index = () => {
       <section id="programs" className="py-24 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-8 uppercase">
-            Что в курсе
+            Что в интенсиве
           </h2>
-          <p className="text-xl text-center text-gray-600 mb-16 max-w-3xl mx-auto">
-            Комплексная программа для специалистов по обучению плаванию детей от 0 до 5 лет
+          <p className="text-xl text-center text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+            Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
+          </p>
+          <p className="text-lg text-center text-primary font-semibold mb-16">
+            Бонус интенсива: обновленный гайд по игрушкам
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -115,8 +118,8 @@ const Index = () => {
 
             <div className="bg-primary text-white rounded-[20px] p-8 hover:shadow-2xl transition-shadow flex flex-col items-center justify-center">
               <Icon name="Star" className="text-white mb-4" size={48} />
-              <p className="text-2xl font-bold text-center mb-4">Бонусы курса</p>
-              <p className="text-center">Методические материалы и сертификат</p>
+              <p className="text-2xl font-bold text-center mb-4">Бонус интенсива</p>
+              <p className="text-center">Обновленный гайд по игрушкам</p>
             </div>
           </div>
           
@@ -206,14 +209,8 @@ const Index = () => {
             Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
           </p>
           <p className="text-lg mb-12 max-w-2xl mx-auto text-primary font-semibold">
-            Бонус: обновленный гайд по игрушкам
+            Бонус интенсива: обновленный гайд по игрушкам
           </p>
-          <div className="mb-12 max-w-3xl mx-auto">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6 uppercase">Что будет в интенсиве</h3>
-            <p className="text-lg text-white/90">
-              Комплексная авторская программа, по которой я сама тренирую и обучаю детей
-            </p>
-          </div>
           <div className="space-y-4">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight">
               Записаться на интенсив
