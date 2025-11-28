@@ -24,7 +24,7 @@ const Index = () => {
             Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
           </p>
           
-          <div className="flex flex-col gap-3 mb-12 max-w-2xl mx-auto">
+          <div className="flex flex-col gap-3 mb-8 max-w-2xl mx-auto">
             <p className="text-lg md:text-xl text-white/90 flex items-center justify-center gap-2">
               <Icon name="Zap" className="text-primary" size={24} />
               Старт сразу после оплаты
@@ -32,6 +32,10 @@ const Index = () => {
             <p className="text-lg md:text-xl text-white/90 flex items-center justify-center gap-2">
               <Icon name="Clock" className="text-primary" size={24} />
               Доступ 4 месяца
+            </p>
+            <p className="text-lg md:text-xl text-white/90 flex items-center justify-center gap-2">
+              <Icon name="Gift" className="text-primary" size={24} />
+              Бонус: обновленный гайд по игрушкам
             </p>
           </div>
           
@@ -52,9 +56,12 @@ const Index = () => {
       <section id="programs" className="py-24 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-8 uppercase">
-            Что в интенсиве
+            Что будет в интенсиве
           </h2>
-          <p className="text-xl text-center text-gray-600 mb-16 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-center text-gray-600 mb-4 max-w-3xl mx-auto leading-relaxed">
+            Комплексная авторская программа, по которой я сама тренирую и обучаю детей
+          </p>
+          <p className="text-lg text-center text-gray-500 mb-16 max-w-3xl mx-auto">
             Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
           </p>
           
@@ -131,7 +138,17 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="mt-16 px-4 max-w-3xl mx-auto">
+          <div className="mt-16 text-center">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold max-w-md mx-auto min-h-[60px]"
+              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Записаться на интенсив
+            </Button>
+          </div>
+          
+          <div className="mt-24 px-4 max-w-3xl mx-auto" id="pricing">
             <div className="bg-white border-2 border-black rounded-[20px] p-8 mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 uppercase">Стоимость</h3>
               <div className="grid md:grid-cols-2 gap-6">
@@ -148,7 +165,7 @@ const Index = () => {
             
             <div className="text-center space-y-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]">
-                Купить доступ
+                Записаться на интенсив
               </Button>
               <Button 
                 size="lg" 
@@ -214,6 +231,17 @@ const Index = () => {
               />
               <p className="text-lg md:text-xl font-semibold text-center md:text-left">Понятную систему взаимодействия с ребенком с помощью игровой деятельности</p>
             </div>
+          </div>
+          
+          <div className="mt-16 text-center">
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="border-2 border-black hover:bg-black hover:text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold max-w-md mx-auto min-h-[60px]"
+              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
+            >
+              Задать вопрос менеджеру
+            </Button>
           </div>
         </div>
       </section>
