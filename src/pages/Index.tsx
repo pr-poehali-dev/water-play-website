@@ -38,7 +38,7 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]"
-            onClick={() => document.getElementById('programs')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => window.open('https://wa.me/79169455813', '_blank')}
           >
             Купить доступ
           </Button>
@@ -138,7 +138,7 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold max-w-md mx-auto min-h-[60px]"
-              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
             >
               Записаться на интенсив
             </Button>
@@ -160,7 +160,11 @@ const Index = () => {
             </div>
             
             <div className="text-center space-y-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]">
+              <Button 
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]"
+                onClick={() => window.open('https://wa.me/79169455813', '_blank')}
+              >
                 Записаться на интенсив
               </Button>
               <Button 
@@ -295,7 +299,12 @@ const Index = () => {
           </div>
 
           <div className="text-center px-4">
-            <Button size="lg" variant="outline" className="rounded-[20px] uppercase font-bold border-2 border-black text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 w-full max-w-md mx-auto min-h-[60px]">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="rounded-[20px] uppercase font-bold border-2 border-black text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 w-full max-w-md mx-auto min-h-[60px]"
+              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
+            >
               Посмотреть все фото
             </Button>
           </div>
@@ -308,7 +317,11 @@ const Index = () => {
             Онлайн интенсив
           </h2>
           <div className="space-y-4">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-white text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight"
+              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
+            >
               Записаться на интенсив
             </Button>
             <Button 
