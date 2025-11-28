@@ -202,15 +202,9 @@ const Index = () => {
 
       <section className="py-24 bg-gradient-to-b from-gray-900 to-black text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-6xl font-bold mb-8 uppercase">
+          <h2 className="text-4xl md:text-6xl font-bold mb-12 uppercase">
             Онлайн интенсив
           </h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto text-white/90 leading-relaxed">
-            Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
-          </p>
-          <p className="text-lg mb-12 max-w-2xl mx-auto text-primary font-semibold">
-            Бонус интенсива: обновленный гайд по игрушкам
-          </p>
           <div className="space-y-4">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight">
               Записаться на интенсив
