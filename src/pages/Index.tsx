@@ -203,7 +203,7 @@ const Index = () => {
 
             <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
               <img 
-                src="https://cdn.poehali.dev/files/7ed29a33-d47e-4759-a8f6-26abc10dba43.jpg" 
+                src="https://cdn.poehali.dev/files/413ab22f-9f9c-40a2-9152-03b03032b596.jpg" 
                 alt="Игры по возрастам"
                 className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
               />
@@ -212,7 +212,7 @@ const Index = () => {
 
             <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
               <img 
-                src="https://cdn.poehali.dev/files/4695f54e-1f24-48e3-902d-1dc7bcb2c6a4.jpg" 
+                src="https://cdn.poehali.dev/files/4a8d9db0-7787-4dea-86ed-fd04e0b6d9cf.jpg" 
                 alt="Видео разборы"
                 className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
               />
@@ -221,7 +221,7 @@ const Index = () => {
 
             <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
               <img 
-                src="https://cdn.poehali.dev/files/8c3e1f0e-64b2-445b-bf9a-3caa6a95b98b.jpg" 
+                src="https://cdn.poehali.dev/files/0c337940-a097-48d8-a00c-b972a06692d4.jpg" 
                 alt="Система взаимодействия"
                 className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
               />
