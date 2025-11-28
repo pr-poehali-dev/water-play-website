@@ -24,7 +24,7 @@ const Index = () => {
             Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
           </p>
           
-          <div className="flex flex-col gap-3 mb-8 max-w-2xl mx-auto">
+          <div className="flex flex-col gap-3 mb-12 max-w-2xl mx-auto">
             <p className="text-lg md:text-xl text-white/90 flex items-center justify-center gap-2">
               <Icon name="Zap" className="text-primary" size={24} />
               Старт сразу после оплаты
@@ -32,10 +32,6 @@ const Index = () => {
             <p className="text-lg md:text-xl text-white/90 flex items-center justify-center gap-2">
               <Icon name="Clock" className="text-primary" size={24} />
               Доступ 4 месяца
-            </p>
-            <p className="text-lg md:text-xl text-white/90 flex items-center justify-center gap-2">
-              <Icon name="Gift" className="text-primary" size={24} />
-              Бонус: обновленный гайд по игрушкам
             </p>
           </div>
           
@@ -189,45 +185,45 @@ const Index = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
               <img 
-                src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/4d3490b9-e92b-4c90-ad7c-3509713b10ba.jpg" 
+                src="https://cdn.poehali.dev/files/0c337940-a097-48d8-a00c-b972a06692d4.jpg" 
                 alt="Сертификат"
-                className="w-full md:w-48 h-48 object-cover rounded-[20px]"
+                className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
               />
               <p className="text-lg md:text-xl font-semibold text-center md:text-left">Сертификат о прохождении</p>
             </div>
 
             <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
               <img 
-                src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/2f5bf2d0-6dab-4810-969e-5aec5f8b3682.jpg" 
+                src="https://cdn.poehali.dev/files/381f62cc-d790-4cbc-8cee-de84fd54b134.jpg" 
                 alt="Гайд по игрушкам"
-                className="w-full md:w-48 h-48 object-cover rounded-[20px]"
+                className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
               />
               <p className="text-lg md:text-xl font-semibold text-center md:text-left">Обновленный гайд игрушки</p>
             </div>
 
             <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
               <img 
-                src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/17928784-8177-4d6a-a347-a3a8e77357a1.jpg" 
+                src="https://cdn.poehali.dev/files/7ed29a33-d47e-4759-a8f6-26abc10dba43.jpg" 
                 alt="Игры по возрастам"
-                className="w-full md:w-48 h-48 object-cover rounded-[20px]"
+                className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
               />
               <p className="text-lg md:text-xl font-semibold text-center md:text-left">Примеры игр и как их применять для каждого возраста от 0 до 5 лет</p>
             </div>
 
             <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
               <img 
-                src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/6c5801fd-6f5b-422f-8080-b1b0eacc5b3f.jpg" 
+                src="https://cdn.poehali.dev/files/4695f54e-1f24-48e3-902d-1dc7bcb2c6a4.jpg" 
                 alt="Видео разборы"
-                className="w-full md:w-48 h-48 object-cover rounded-[20px]"
+                className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
               />
               <p className="text-lg md:text-xl font-semibold text-center md:text-left">Подробные видео-разборы моих тренировок, как встроить игру в тренировочный процесс</p>
             </div>
 
             <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
               <img 
-                src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/8c281b11-cb62-4523-be4b-552428c1d51e.jpg" 
+                src="https://cdn.poehali.dev/files/8c3e1f0e-64b2-445b-bf9a-3caa6a95b98b.jpg" 
                 alt="Система взаимодействия"
-                className="w-full md:w-48 h-48 object-cover rounded-[20px]"
+                className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
               />
               <p className="text-lg md:text-xl font-semibold text-center md:text-left">Понятную систему взаимодействия с ребенком с помощью игровой деятельности</p>
             </div>
