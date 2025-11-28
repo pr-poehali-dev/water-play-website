@@ -212,11 +212,11 @@ const Index = () => {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-black text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight"
+              className="border-2 border-white text-white hover:bg-white hover:text-black text-sm md:text-lg px-4 md:px-8 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] flex items-center justify-center gap-2"
               onClick={() => window.open('https://wa.me/79169455813', '_blank')}
             >
-              <Icon name="MessageCircle" className="mr-2" size={24} />
-              Задать вопрос менеджеру
+              <Icon name="MessageCircle" size={20} />
+              <span>Задать вопрос менеджеру</span>
             </Button>
           </div>
         </div>
