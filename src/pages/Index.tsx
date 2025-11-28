@@ -212,7 +212,7 @@ const Index = () => {
             <Button 
               size="lg" 
               variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-black text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight"
+              className="border-2 border-white text-white hover:bg-white hover:text-black text-sm md:text-lg px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight"
               onClick={() => window.open('https://wa.me/79169455813', '_blank')}
             >
               Задать вопрос менеджеру
