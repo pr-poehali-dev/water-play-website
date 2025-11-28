@@ -120,9 +120,18 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="text-center mt-16 px-4">
+          <div className="text-center mt-16 px-4 space-y-4">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]">
-              Записаться на курс
+              Купить доступ
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="border-2 border-black hover:bg-black hover:text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]"
+              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
+            >
+              <Icon name="MessageCircle" className="mr-2" size={24} />
+              Задать вопрос менеджеру
             </Button>
           </div>
         </div>
@@ -191,14 +200,34 @@ const Index = () => {
       <section className="py-24 bg-gradient-to-b from-gray-900 to-black text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-8 uppercase">
-            Начните обучение сегодня
+            Онлайн интенсив
           </h2>
-          <p className="text-xl mb-12 max-w-2xl mx-auto text-white/80">
-            Запишитесь на пробное занятие и откройте для вашего ребенка мир безопасного и радостного плавания
+          <p className="text-xl mb-8 max-w-3xl mx-auto text-white/90 leading-relaxed">
+            Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
           </p>
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight">
-            Записаться на пробное занятие
-          </Button>
+          <p className="text-lg mb-12 max-w-2xl mx-auto text-primary font-semibold">
+            Бонус: обновленный гайд по игрушкам
+          </p>
+          <div className="mb-12 max-w-3xl mx-auto">
+            <h3 className="text-2xl md:text-3xl font-bold mb-6 uppercase">Что будет в интенсиве</h3>
+            <p className="text-lg text-white/90">
+              Комплексная авторская программа, по которой я сама тренирую и обучаю детей
+            </p>
+          </div>
+          <div className="space-y-4">
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight">
+              Записаться на интенсив
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="border-2 border-white text-white hover:bg-white hover:text-black text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight"
+              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
+            >
+              <Icon name="MessageCircle" className="mr-2" size={24} />
+              Задать вопрос менеджеру
+            </Button>
+          </div>
         </div>
       </section>
 
