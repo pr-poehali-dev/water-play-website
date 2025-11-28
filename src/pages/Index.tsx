@@ -217,44 +217,44 @@ const Index = () => {
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
-            <div className="relative group overflow-hidden rounded-[20px]">
+            <div className="relative group overflow-hidden rounded-[20px] h-64 md:h-80">
               <img 
                 src="https://cdn.poehali.dev/files/0c337940-a097-48d8-a00c-b972a06692d4.jpg" 
                 alt="Игровое занятие с малышом"
-                className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <Icon name="ZoomIn" className="text-white" size={48} />
               </div>
             </div>
 
-            <div className="relative group overflow-hidden rounded-[20px]">
+            <div className="relative group overflow-hidden rounded-[20px] h-64 md:h-80">
               <img 
                 src="https://cdn.poehali.dev/files/381f62cc-d790-4cbc-8cee-de84fd54b134.jpg" 
                 alt="Обучение плаванию малыша"
-                className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <Icon name="ZoomIn" className="text-white" size={48} />
               </div>
             </div>
 
-            <div className="relative group overflow-hidden rounded-[20px]">
+            <div className="relative group overflow-hidden rounded-[20px] h-64 md:h-80">
               <img 
                 src="https://cdn.poehali.dev/files/413ab22f-9f9c-40a2-9152-03b03032b596.jpg" 
                 alt="Ребенок с игрушкой под водой"
-                className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <Icon name="ZoomIn" className="text-white" size={48} />
               </div>
             </div>
 
-            <div className="relative group overflow-hidden rounded-[20px]">
+            <div className="relative group overflow-hidden rounded-[20px] h-64 md:h-80">
               <img 
                 src="https://cdn.poehali.dev/files/4a8d9db0-7787-4dea-86ed-fd04e0b6d9cf.jpg" 
                 alt="Подводное плавание ребенка"
-                className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <Icon name="ZoomIn" className="text-white" size={48} />
