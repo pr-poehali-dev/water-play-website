@@ -123,18 +123,89 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="text-center mt-16 px-4 space-y-4">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]">
-              Купить доступ
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-2 border-black hover:bg-black hover:text-white text-sm md:text-lg px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight"
-              onClick={() => window.open('https://wa.me/79169455813', '_blank')}
-            >
-              Задать вопрос менеджеру
-            </Button>
+          <div className="mt-16 px-4 max-w-3xl mx-auto">
+            <div className="bg-white border-2 border-black rounded-[20px] p-8 mb-8">
+              <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 uppercase">Стоимость</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="text-center p-6 border-2 border-primary rounded-[20px]">
+                  <p className="text-lg font-semibold mb-2">Стандартная цена</p>
+                  <p className="text-4xl font-bold text-primary">3 990 ₽</p>
+                </div>
+                <div className="text-center p-6 border-2 border-green-600 rounded-[20px] bg-green-50">
+                  <p className="text-lg font-semibold mb-2">Для участников семинара<br />"Осознанное погружение"</p>
+                  <p className="text-4xl font-bold text-green-600">3 490 ₽</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="text-center space-y-4">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]">
+                Купить доступ
+              </Button>
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="border-2 border-black hover:bg-black hover:text-white text-sm md:text-lg px-6 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px] whitespace-normal leading-tight"
+                onClick={() => window.open('https://wa.me/79169455813', '_blank')}
+              >
+                Задать вопрос менеджеру
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 uppercase">
+            Что вы получите после интенсива
+          </h2>
+          
+          <div className="max-w-4xl mx-auto space-y-8">
+            <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
+              <img 
+                src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/4d3490b9-e92b-4c90-ad7c-3509713b10ba.jpg" 
+                alt="Сертификат"
+                className="w-full md:w-48 h-48 object-cover rounded-[20px]"
+              />
+              <p className="text-lg md:text-xl font-semibold text-center md:text-left">Сертификат о прохождении</p>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
+              <img 
+                src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/2f5bf2d0-6dab-4810-969e-5aec5f8b3682.jpg" 
+                alt="Гайд по игрушкам"
+                className="w-full md:w-48 h-48 object-cover rounded-[20px]"
+              />
+              <p className="text-lg md:text-xl font-semibold text-center md:text-left">Обновленный гайд игрушки</p>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
+              <img 
+                src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/17928784-8177-4d6a-a347-a3a8e77357a1.jpg" 
+                alt="Игры по возрастам"
+                className="w-full md:w-48 h-48 object-cover rounded-[20px]"
+              />
+              <p className="text-lg md:text-xl font-semibold text-center md:text-left">Примеры игр и как их применять для каждого возраста от 0 до 5 лет</p>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
+              <img 
+                src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/6c5801fd-6f5b-422f-8080-b1b0eacc5b3f.jpg" 
+                alt="Видео разборы"
+                className="w-full md:w-48 h-48 object-cover rounded-[20px]"
+              />
+              <p className="text-lg md:text-xl font-semibold text-center md:text-left">Подробные видео-разборы моих тренировок, как встроить игру в тренировочный процесс</p>
+            </div>
+
+            <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
+              <img 
+                src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/8c281b11-cb62-4523-be4b-552428c1d51e.jpg" 
+                alt="Система взаимодействия"
+                className="w-full md:w-48 h-48 object-cover rounded-[20px]"
+              />
+              <p className="text-lg md:text-xl font-semibold text-center md:text-left">Понятную систему взаимодействия с ребенком с помощью игровой деятельности</p>
+            </div>
           </div>
         </div>
       </section>
