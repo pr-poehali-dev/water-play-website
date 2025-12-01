@@ -8,10 +8,10 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/5e4d9148-19f0-4481-b386-94ba4482a8bb.jpg)',
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/db2b7cc0-3681-4684-b92e-561eb07e9de1.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            opacity: 0.4
+            opacity: 0.5
           }}
         />
         
@@ -144,7 +144,7 @@ const Index = () => {
                   <p className="text-4xl font-bold text-primary">3 990 ₽</p>
                 </div>
                 <div className="text-center p-6 border-2 border-green-600 rounded-[20px] bg-green-50">
-                  <p className="text-lg font-semibold mb-2">Для участников<br />"Осознанное погружение"</p>
+                  <p className="text-lg font-semibold mb-2">Для участников, прошедших семинар<br />"Осознанное погружение"</p>
                   <p className="text-4xl font-bold text-green-600">3 490 ₽</p>
                 </div>
               </div>
@@ -171,25 +171,22 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-24 bg-white">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 uppercase">
+          <h2 className="text-4xl md:text-6xl font-bold text-center mb-12 uppercase">
             Что вы получите после интенсива
           </h2>
           
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="grid md:grid-cols-3 gap-6 mb-8 max-w-5xl mx-auto">
               <div className="relative overflow-hidden rounded-[20px] group">
                 <img 
                   src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/db74601b-8ba4-4bfe-b986-0f0bdd0f75d2.jpg" 
                   alt="Сертификат"
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
-                  <div>
-                    <h3 className="text-white font-bold text-xl mb-1 uppercase">Сертификат</h3>
-                    <p className="text-white/90 text-sm">Официальный документ о прохождении</p>
-                  </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-5">
+                  <p className="text-white font-bold text-lg">Сертификат о прохождении</p>
                 </div>
               </div>
 
@@ -197,13 +194,10 @@ const Index = () => {
                 <img 
                   src="https://cdn.poehali.dev/files/381f62cc-d790-4cbc-8cee-de84fd54b134.jpg" 
                   alt="Гайд по игрушкам"
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
-                  <div>
-                    <h3 className="text-white font-bold text-xl mb-1 uppercase">Гайд по игрушкам</h3>
-                    <p className="text-white/90 text-sm">Обновленное руководство по выбору</p>
-                  </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-5">
+                  <p className="text-white font-bold text-lg">Обновленный гайд игрушки</p>
                 </div>
               </div>
 
@@ -211,50 +205,33 @@ const Index = () => {
                 <img 
                   src="https://cdn.poehali.dev/files/413ab22f-9f9c-40a2-9152-03b03032b596.jpg" 
                   alt="Игры по возрастам"
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
-                  <div>
-                    <h3 className="text-white font-bold text-xl mb-1 uppercase">Игры по возрастам</h3>
-                    <p className="text-white/90 text-sm">Примеры от 0 до 5 лет с инструкциями</p>
-                  </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-5">
+                  <p className="text-white font-bold text-lg">Примеры игр для каждого возраста от 0 до 5 лет</p>
                 </div>
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
               <div className="relative overflow-hidden rounded-[20px] group">
                 <img 
                   src="https://cdn.poehali.dev/files/4a8d9db0-7787-4dea-86ed-fd04e0b6d9cf.jpg" 
-                  alt="Видео-разборы тренировок"
-                  className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
+                  alt="Видео-разборы"
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
-                  <div>
-                    <h3 className="text-white font-bold text-2xl mb-2">Видео-разборы тренировок</h3>
-                    <p className="text-white/90">Подробный анализ игровых методик на практике</p>
-                  </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-5">
+                  <p className="text-white font-bold text-lg">Подробные видео-разборы тренировок, как встроить игру в тренировочный процесс</p>
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100/50 rounded-[20px] p-8 flex flex-col justify-center space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="bg-purple-600 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
-                    <Icon name="Video" className="text-white" size={24} />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">Видео-разборы тренировок</h3>
-                    <p className="text-gray-700">Подробный анализ игровых методик</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="bg-purple-600 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
-                    <Icon name="Target" className="text-white" size={24} />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-lg mb-2">Система взаимодействия</h3>
-                    <p className="text-gray-700">Понятная структура работы с ребенком</p>
+              <div className="relative overflow-hidden rounded-[20px] group bg-gradient-to-br from-primary/10 to-primary/5">
+                <div className="h-64 flex items-center justify-center p-8">
+                  <div className="text-center space-y-4">
+                    <div className="bg-primary rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                      <Icon name="Target" className="text-white" size={40} />
+                    </div>
+                    <p className="text-xl font-bold text-gray-800">Понятную систему взаимодействия с ребенком через игровую деятельность</p>
                   </div>
                 </div>
               </div>
