@@ -8,10 +8,10 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/db2b7cc0-3681-4684-b92e-561eb07e9de1.jpg)',
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/2954a9b3-13d4-4d4b-a757-e3e36595b196.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            opacity: 0.5
+            opacity: 0.3
           }}
         />
         
