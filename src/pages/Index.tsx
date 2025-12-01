@@ -179,40 +179,61 @@ const Index = () => {
           
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-[20px] p-6 text-center hover:shadow-xl transition-shadow">
-                <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Award" className="text-primary" size={40} />
+              <div className="relative overflow-hidden rounded-[20px] group">
+                <img 
+                  src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/db74601b-8ba4-4bfe-b986-0f0bdd0f75d2.jpg" 
+                  alt="Сертификат"
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                  <div>
+                    <h3 className="text-white font-bold text-xl mb-1 uppercase">Сертификат</h3>
+                    <p className="text-white/90 text-sm">Официальный документ о прохождении</p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-3 uppercase">Сертификат</h3>
-                <p className="text-gray-700">Официальный документ о прохождении</p>
               </div>
 
-              <div className="bg-gradient-to-br from-green-50 to-green-100/50 rounded-[20px] p-6 text-center hover:shadow-xl transition-shadow">
-                <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
-                  <Icon name="BookOpen" className="text-green-600" size={40} />
+              <div className="relative overflow-hidden rounded-[20px] group">
+                <img 
+                  src="https://cdn.poehali.dev/files/381f62cc-d790-4cbc-8cee-de84fd54b134.jpg" 
+                  alt="Гайд по игрушкам"
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                  <div>
+                    <h3 className="text-white font-bold text-xl mb-1 uppercase">Гайд по игрушкам</h3>
+                    <p className="text-white/90 text-sm">Обновленное руководство по выбору</p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-3 uppercase">Гайд по игрушкам</h3>
-                <p className="text-gray-700">Обновленное руководство по выбору</p>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 rounded-[20px] p-6 text-center hover:shadow-xl transition-shadow">
-                <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Users" className="text-blue-600" size={40} />
+              <div className="relative overflow-hidden rounded-[20px] group">
+                <img 
+                  src="https://cdn.poehali.dev/files/413ab22f-9f9c-40a2-9152-03b03032b596.jpg" 
+                  alt="Игры по возрастам"
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                  <div>
+                    <h3 className="text-white font-bold text-xl mb-1 uppercase">Игры по возрастам</h3>
+                    <p className="text-white/90 text-sm">Примеры от 0 до 5 лет с инструкциями</p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-3 uppercase">Игры по возрастам</h3>
-                <p className="text-gray-700">Примеры от 0 до 5 лет с инструкциями</p>
               </div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="relative overflow-hidden rounded-[20px] group">
                 <img 
-                  src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/db74601b-8ba4-4bfe-b986-0f0bdd0f75d2.jpg" 
-                  alt="Сертификат о прохождении"
+                  src="https://cdn.poehali.dev/files/4a8d9db0-7787-4dea-86ed-fd04e0b6d9cf.jpg" 
+                  alt="Видео-разборы тренировок"
                   className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-                  <p className="text-white font-bold text-xl">📜 Сертификат после обучения</p>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                  <div>
+                    <h3 className="text-white font-bold text-2xl mb-2">Видео-разборы тренировок</h3>
+                    <p className="text-white/90">Подробный анализ игровых методик на практике</p>
+                  </div>
                 </div>
               </div>
 
