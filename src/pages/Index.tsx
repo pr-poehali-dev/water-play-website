@@ -16,6 +16,10 @@ const Index = () => {
         />
         
         <div className="container mx-auto px-4 z-10 text-center">
+          <p className="text-2xl md:text-3xl text-primary mb-4 uppercase font-bold">
+            Онлайн интенсив
+          </p>
+          
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 uppercase tracking-tight">
             Игровая деятельность<br />в воде с детьми<br />от 0 до 5 лет
           </h1>
@@ -24,13 +28,13 @@ const Index = () => {
             Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
           </p>
           
-          <div className="flex flex-col gap-3 mb-12 max-w-2xl mx-auto">
-            <p className="text-lg md:text-xl text-white/90 flex items-center justify-center gap-2">
-              <Icon name="Zap" className="text-primary" size={24} />
+          <div className="flex flex-col gap-4 mb-12 max-w-2xl mx-auto">
+            <p className="text-2xl md:text-3xl text-white font-bold flex items-center justify-center gap-3">
+              <Icon name="Zap" className="text-primary" size={32} />
               Старт сразу после оплаты
             </p>
-            <p className="text-lg md:text-xl text-white/90 flex items-center justify-center gap-2">
-              <Icon name="Clock" className="text-primary" size={24} />
+            <p className="text-2xl md:text-3xl text-white font-bold flex items-center justify-center gap-3">
+              <Icon name="Clock" className="text-primary" size={32} />
               Доступ 4 месяца
             </p>
           </div>
@@ -54,11 +58,8 @@ const Index = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-8 uppercase">
             Что будет в интенсиве
           </h2>
-          <p className="text-xl text-center text-gray-600 mb-4 max-w-3xl mx-auto leading-relaxed">
-            Комплексная авторская программа, по которой я сама тренирую и обучаю детей
-          </p>
-          <p className="text-lg text-center text-gray-500 mb-16 max-w-3xl mx-auto">
-            Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
+          <p className="text-xl text-center text-gray-600 mb-16 max-w-3xl mx-auto leading-relaxed">
+            Комплексная авторская программа, по которой я сама тренирую и обучаю детей состоящая из 5 модулей
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -137,14 +138,18 @@ const Index = () => {
           <div className="mt-24 px-4 max-w-3xl mx-auto" id="pricing">
             <div className="bg-white border-2 border-black rounded-[20px] p-8 mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 uppercase">Стоимость</h3>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="text-center p-6 border-2 border-primary rounded-[20px]">
-                  <p className="text-lg font-semibold mb-2">Стандартная цена</p>
-                  <p className="text-4xl font-bold text-primary">3 990 ₽</p>
-                </div>
-                <div className="text-center p-6 border-2 border-green-600 rounded-[20px] bg-green-50">
-                  <p className="text-lg font-semibold mb-2">Для участников семинара<br />"Осознанное погружение"</p>
-                  <p className="text-4xl font-bold text-green-600">3 490 ₽</p>
+              <div className="text-center p-8 border-2 border-green-600 rounded-[20px] bg-green-50">
+                <p className="text-xl font-semibold mb-4">Для участников, прошедших семинар<br />"Осознанное погружение"</p>
+                <p className="text-5xl md:text-6xl font-bold text-green-600 mb-4">3 490 ₽</p>
+                <div className="flex flex-col md:flex-row gap-4 justify-center items-center text-lg text-gray-700">
+                  <div className="flex items-center gap-2">
+                    <Icon name="Zap" className="text-green-600" size={24} />
+                    <span className="font-semibold">Доступ сразу</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Icon name="Clock" className="text-green-600" size={24} />
+                    <span className="font-semibold">На 4 месяца</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -177,13 +182,18 @@ const Index = () => {
           </h2>
           
           <div className="max-w-4xl mx-auto space-y-8">
-            <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
-              <img 
-                src="https://cdn.poehali.dev/files/0c337940-a097-48d8-a00c-b972a06692d4.jpg" 
-                alt="Сертификат"
-                className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
-              />
-              <p className="text-lg md:text-xl font-semibold text-center md:text-left">Сертификат о прохождении</p>
+            <div className="grid md:grid-cols-2 gap-8 items-start bg-white border-2 border-black rounded-[20px] p-8">
+              <div className="order-2 md:order-1 space-y-4">
+                <h3 className="text-2xl md:text-3xl font-bold uppercase">Сертификат</h3>
+                <p className="text-lg text-gray-700">После успешного прохождения всех модулей интенсива вы получите официальный сертификат, подтверждающий ваши знания в области игровой деятельности с детьми в воде</p>
+              </div>
+              <div className="order-1 md:order-2">
+                <img 
+                  src="https://cdn.poehali.dev/files/0c337940-a097-48d8-a00c-b972a06692d4.jpg" 
+                  alt="Сертификат о прохождении"
+                  className="w-full h-64 md:h-80 object-cover rounded-[20px] shadow-xl"
+                />
+              </div>
             </div>
 
             <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
@@ -221,70 +231,6 @@ const Index = () => {
               />
               <p className="text-lg md:text-xl font-semibold text-center md:text-left">Понятную систему взаимодействия с ребенком с помощью игровой деятельности</p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-24 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 uppercase">
-            Фото и видео
-          </h2>
-          
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
-            <div className="relative group overflow-hidden rounded-[20px] h-64 md:h-80">
-              <img 
-                src="https://cdn.poehali.dev/files/0c337940-a097-48d8-a00c-b972a06692d4.jpg" 
-                alt="Игровое занятие с малышом"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                <Icon name="ZoomIn" className="text-white" size={48} />
-              </div>
-            </div>
-
-            <div className="relative group overflow-hidden rounded-[20px] h-64 md:h-80">
-              <img 
-                src="https://cdn.poehali.dev/files/381f62cc-d790-4cbc-8cee-de84fd54b134.jpg" 
-                alt="Обучение плаванию малыша"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                <Icon name="ZoomIn" className="text-white" size={48} />
-              </div>
-            </div>
-
-            <div className="relative group overflow-hidden rounded-[20px] h-64 md:h-80">
-              <img 
-                src="https://cdn.poehali.dev/files/413ab22f-9f9c-40a2-9152-03b03032b596.jpg" 
-                alt="Ребенок с игрушкой под водой"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                <Icon name="ZoomIn" className="text-white" size={48} />
-              </div>
-            </div>
-
-            <div className="relative group overflow-hidden rounded-[20px] h-64 md:h-80">
-              <img 
-                src="https://cdn.poehali.dev/files/4a8d9db0-7787-4dea-86ed-fd04e0b6d9cf.jpg" 
-                alt="Подводное плавание ребенка"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                <Icon name="ZoomIn" className="text-white" size={48} />
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center px-4">
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="rounded-[20px] uppercase font-bold border-2 border-black text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 w-full max-w-md mx-auto min-h-[60px]"
-            >
-              Посмотреть все фото
-            </Button>
           </div>
         </div>
       </section>
