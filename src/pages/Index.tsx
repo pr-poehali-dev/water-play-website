@@ -4,7 +4,25 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-gray-900 to-gray-800">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+        <div className="container mx-auto px-4 py-4 flex justify-end items-center gap-4">
+          <Button 
+            variant="outline"
+            className="border-2 border-primary text-primary hover:bg-primary hover:text-white rounded-full px-6 py-2 font-semibold transition-all"
+            onClick={() => window.open('https://wa.me/79169455813', '_blank')}
+          >
+            Задать вопрос
+          </Button>
+          <Button 
+            className="bg-primary hover:bg-primary/90 text-white rounded-full px-8 py-2 font-bold uppercase"
+            onClick={() => window.open('https://wa.me/79169455813', '_blank')}
+          >
+            Купить доступ
+          </Button>
+        </div>
+      </header>
+
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
         <div 
           className="absolute inset-0 z-0"
           style={{
@@ -16,7 +34,7 @@ const Index = () => {
         />
         
         <div className="container mx-auto px-4 z-10 text-center">
-          <p className="text-2xl md:text-3xl text-primary mb-4 uppercase font-bold">
+          <p className="text-2xl md:text-3xl text-cyan-400 mb-4 uppercase font-bold tracking-wider">
             Онлайн интенсив
           </p>
           
@@ -28,24 +46,16 @@ const Index = () => {
             Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка
           </p>
           
-          <div className="flex flex-col gap-4 mb-12 max-w-2xl mx-auto">
+          <div className="flex flex-col gap-4 max-w-2xl mx-auto">
             <p className="text-2xl md:text-3xl text-white font-bold flex items-center justify-center gap-3">
-              <Icon name="Zap" className="text-primary" size={32} />
+              <Icon name="Zap" className="text-cyan-400" size={32} />
               Старт сразу после оплаты
             </p>
             <p className="text-2xl md:text-3xl text-white font-bold flex items-center justify-center gap-3">
-              <Icon name="Clock" className="text-primary" size={32} />
+              <Icon name="Clock" className="text-cyan-400" size={32} />
               Доступ 4 месяца
             </p>
           </div>
-          
-          <Button 
-            size="lg" 
-            className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-[20px] uppercase font-bold w-full max-w-md mx-auto min-h-[60px]"
-            onClick={() => window.open('https://wa.me/79169455813', '_blank')}
-          >
-            Купить доступ
-          </Button>
         </div>
 
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
@@ -53,7 +63,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="programs" className="py-24 bg-white">
+      <section id="programs" className="py-24 bg-gradient-to-b from-white to-slate-50">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-8 uppercase">
             Что будет в интенсиве
@@ -63,7 +73,7 @@ const Index = () => {
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div className="bg-white border-2 border-black rounded-[20px] p-8 hover:shadow-2xl transition-shadow">
+            <div className="bg-white border border-slate-200 rounded-[20px] p-8 hover:shadow-2xl hover:border-primary/30 transition-all">
               <div className="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <Icon name="Sparkles" className="text-primary" size={40} />
               </div>
@@ -76,7 +86,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="bg-white border-2 border-black rounded-[20px] p-8 hover:shadow-2xl transition-shadow">
+            <div className="bg-white border border-slate-200 rounded-[20px] p-8 hover:shadow-2xl hover:border-primary/30 transition-all">
               <div className="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <Icon name="Gift" className="text-primary" size={40} />
               </div>
@@ -89,7 +99,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="bg-white border-2 border-black rounded-[20px] p-8 hover:shadow-2xl transition-shadow">
+            <div className="bg-white border border-slate-200 rounded-[20px] p-8 hover:shadow-2xl hover:border-primary/30 transition-all">
               <div className="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <Icon name="Shield" className="text-primary" size={40} />
               </div>
@@ -102,7 +112,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="bg-white border-2 border-black rounded-[20px] p-8 hover:shadow-2xl transition-shadow">
+            <div className="bg-white border border-slate-200 rounded-[20px] p-8 hover:shadow-2xl hover:border-primary/30 transition-all">
               <div className="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <Icon name="Waves" className="text-primary" size={40} />
               </div>
@@ -115,7 +125,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="bg-white border-2 border-black rounded-[20px] p-8 hover:shadow-2xl transition-shadow">
+            <div className="bg-white border border-slate-200 rounded-[20px] p-8 hover:shadow-2xl hover:border-primary/30 transition-all">
               <div className="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mb-6 mx-auto">
                 <Icon name="GraduationCap" className="text-primary" size={40} />
               </div>
@@ -128,7 +138,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="bg-primary text-white rounded-[20px] p-8 hover:shadow-2xl transition-shadow flex flex-col items-center justify-center">
+            <div className="bg-gradient-to-br from-primary to-cyan-500 text-white rounded-[20px] p-8 hover:shadow-2xl transition-shadow flex flex-col items-center justify-center">
               <Icon name="Star" className="text-white mb-4" size={48} />
               <p className="text-2xl font-bold text-center mb-4">Бонус интенсива</p>
               <p className="text-center">Обновленный гайд по игрушкам</p>
@@ -136,7 +146,7 @@ const Index = () => {
           </div>
           
           <div className="mt-24 px-4 max-w-3xl mx-auto" id="pricing">
-            <div className="bg-white border-2 border-black rounded-[20px] p-8 mb-8">
+            <div className="bg-white border border-slate-200 rounded-[20px] p-8 mb-8 shadow-lg">
               <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 uppercase">Стоимость</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="text-center p-6 border-2 border-primary rounded-[20px]">
@@ -171,7 +181,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-6xl font-bold text-center mb-12 uppercase">
             Что вы получите после интенсива
@@ -240,7 +250,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-black text-white py-12">
+      <footer className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-12">
         <div className="container mx-auto px-4 text-center">
           <p className="text-white/60">© 2024 Игровая деятельность в воде. Все права защищены.</p>
         </div>
