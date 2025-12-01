@@ -138,18 +138,14 @@ const Index = () => {
           <div className="mt-24 px-4 max-w-3xl mx-auto" id="pricing">
             <div className="bg-white border-2 border-black rounded-[20px] p-8 mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 uppercase">Стоимость</h3>
-              <div className="text-center p-8 border-2 border-green-600 rounded-[20px] bg-green-50">
-                <p className="text-xl font-semibold mb-4">Для участников, прошедших семинар<br />"Осознанное погружение"</p>
-                <p className="text-5xl md:text-6xl font-bold text-green-600 mb-4">3 490 ₽</p>
-                <div className="flex flex-col md:flex-row gap-4 justify-center items-center text-lg text-gray-700">
-                  <div className="flex items-center gap-2">
-                    <Icon name="Zap" className="text-green-600" size={24} />
-                    <span className="font-semibold">Доступ сразу</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Icon name="Clock" className="text-green-600" size={24} />
-                    <span className="font-semibold">На 4 месяца</span>
-                  </div>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="text-center p-6 border-2 border-primary rounded-[20px]">
+                  <p className="text-lg font-semibold mb-2">Стандартная цена</p>
+                  <p className="text-4xl font-bold text-primary">3 990 ₽</p>
+                </div>
+                <div className="text-center p-6 border-2 border-green-600 rounded-[20px] bg-green-50">
+                  <p className="text-lg font-semibold mb-2">Для участников<br />"Осознанное погружение"</p>
+                  <p className="text-4xl font-bold text-green-600">3 490 ₽</p>
                 </div>
               </div>
             </div>
@@ -181,55 +177,66 @@ const Index = () => {
             Что вы получите после интенсива
           </h2>
           
-          <div className="max-w-4xl mx-auto space-y-8">
-            <div className="grid md:grid-cols-2 gap-8 items-start bg-white border-2 border-black rounded-[20px] p-8">
-              <div className="order-2 md:order-1 space-y-4">
-                <h3 className="text-2xl md:text-3xl font-bold uppercase">Сертификат</h3>
-                <p className="text-lg text-gray-700">После успешного прохождения всех модулей интенсива вы получите официальный сертификат, подтверждающий ваши знания в области игровой деятельности с детьми в воде</p>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-[20px] p-6 text-center hover:shadow-xl transition-shadow">
+                <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Award" className="text-primary" size={40} />
+                </div>
+                <h3 className="text-xl font-bold mb-3 uppercase">Сертификат</h3>
+                <p className="text-gray-700">Официальный документ о прохождении</p>
               </div>
-              <div className="order-1 md:order-2">
+
+              <div className="bg-gradient-to-br from-green-50 to-green-100/50 rounded-[20px] p-6 text-center hover:shadow-xl transition-shadow">
+                <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                  <Icon name="BookOpen" className="text-green-600" size={40} />
+                </div>
+                <h3 className="text-xl font-bold mb-3 uppercase">Гайд по игрушкам</h3>
+                <p className="text-gray-700">Обновленное руководство по выбору</p>
+              </div>
+
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 rounded-[20px] p-6 text-center hover:shadow-xl transition-shadow">
+                <div className="bg-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Users" className="text-blue-600" size={40} />
+                </div>
+                <h3 className="text-xl font-bold mb-3 uppercase">Игры по возрастам</h3>
+                <p className="text-gray-700">Примеры от 0 до 5 лет с инструкциями</p>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="relative overflow-hidden rounded-[20px] group">
                 <img 
-                  src="https://cdn.poehali.dev/files/0c337940-a097-48d8-a00c-b972a06692d4.jpg" 
+                  src="https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/db74601b-8ba4-4bfe-b986-0f0bdd0f75d2.jpg" 
                   alt="Сертификат о прохождении"
-                  className="w-full h-64 md:h-80 object-cover rounded-[20px] shadow-xl"
+                  className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                  <p className="text-white font-bold text-xl">📜 Сертификат после обучения</p>
+                </div>
               </div>
-            </div>
 
-            <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
-              <img 
-                src="https://cdn.poehali.dev/files/381f62cc-d790-4cbc-8cee-de84fd54b134.jpg" 
-                alt="Гайд по игрушкам"
-                className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
-              />
-              <p className="text-lg md:text-xl font-semibold text-center md:text-left">Обновленный гайд игрушки</p>
-            </div>
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100/50 rounded-[20px] p-8 flex flex-col justify-center space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="bg-purple-600 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+                    <Icon name="Video" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-2">Видео-разборы тренировок</h3>
+                    <p className="text-gray-700">Подробный анализ игровых методик</p>
+                  </div>
+                </div>
 
-            <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
-              <img 
-                src="https://cdn.poehali.dev/files/413ab22f-9f9c-40a2-9152-03b03032b596.jpg" 
-                alt="Игры по возрастам"
-                className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
-              />
-              <p className="text-lg md:text-xl font-semibold text-center md:text-left">Примеры игр и как их применять для каждого возраста от 0 до 5 лет</p>
-            </div>
-
-            <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
-              <img 
-                src="https://cdn.poehali.dev/files/4a8d9db0-7787-4dea-86ed-fd04e0b6d9cf.jpg" 
-                alt="Видео разборы"
-                className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
-              />
-              <p className="text-lg md:text-xl font-semibold text-center md:text-left">Подробные видео-разборы моих тренировок, как встроить игру в тренировочный процесс</p>
-            </div>
-
-            <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 rounded-[20px] p-6">
-              <img 
-                src="https://cdn.poehali.dev/files/0c337940-a097-48d8-a00c-b972a06692d4.jpg" 
-                alt="Система взаимодействия"
-                className="w-full md:w-32 h-32 object-cover rounded-[20px] flex-shrink-0"
-              />
-              <p className="text-lg md:text-xl font-semibold text-center md:text-left">Понятную систему взаимодействия с ребенком с помощью игровой деятельности</p>
+                <div className="flex items-start gap-4">
+                  <div className="bg-purple-600 rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+                    <Icon name="Target" className="text-white" size={24} />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-2">Система взаимодействия</h3>
+                    <p className="text-gray-700">Понятная структура работы с ребенком</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
