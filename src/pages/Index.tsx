@@ -46,7 +46,7 @@ const Index = () => {
             <span className="text-amber-400 font-bold">Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка</span>
           </p>
           
-          <div className="flex flex-col gap-4 max-w-2xl mx-auto mb-12">
+          <div className="flex flex-col gap-4 max-w-2xl mx-auto">
             <p className="text-2xl md:text-3xl text-white font-bold flex items-center justify-center gap-3">
               <Icon name="Zap" className="text-cyan-400" size={32} />
               Старт сразу после оплаты
@@ -56,14 +56,6 @@ const Index = () => {
               Доступ 4 месяца
             </p>
           </div>
-          
-          <Button 
-            size="lg" 
-            className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-8 md:px-12 py-6 md:py-8 rounded-full uppercase font-bold w-full max-w-md mx-auto min-h-[60px]"
-            onClick={() => window.open('https://wa.me/79169455813', '_blank')}
-          >
-            Получить доступ
-          </Button>
         </div>
 
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
