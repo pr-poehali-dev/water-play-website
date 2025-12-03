@@ -252,6 +252,13 @@ const Index = () => {
 
       <footer className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-12">
         <div className="container mx-auto px-4 text-center">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-white text-lg md:text-xl px-12 py-6 rounded-full uppercase font-bold mb-8"
+            onClick={() => window.open('https://wa.me/79169455813', '_blank')}
+          >
+            Получить доступ
+          </Button>
           <p className="text-white/60">© 2024 Игровая деятельность в воде. Все права защищены.</p>
         </div>
       </footer>
