@@ -22,18 +22,19 @@ const Index = () => {
         </div>
       </header>
 
-      <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
-        <div className="container mx-auto px-4 z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
-            <div className="relative h-[400px] md:h-[530px] lg:order-1">
-              <img 
-                src="https://cdn.poehali.dev/files/db149995-bc8a-4c68-9b84-66c5e417002e.jpg"
-                alt="Ребенок в бассейне"
-                className="w-full h-full object-cover rounded-3xl shadow-2xl"
-              />
-            </div>
-            
-            <div className="text-left lg:order-2 py-12">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/files/db149995-bc8a-4c68-9b84-66c5e417002e.jpg)',
+            backgroundSize: 'contain',
+            backgroundPosition: 'bottom right',
+            backgroundRepeat: 'no-repeat',
+            opacity: 0.2
+          }}
+        />
+        
+        <div className="container mx-auto px-4 z-10 text-center">
           <p className="text-2xl md:text-3xl text-cyan-400 mb-4 uppercase font-bold tracking-wider">
             Онлайн интенсив
           </p>
@@ -42,21 +43,19 @@ const Index = () => {
             Игровая деятельность<br />в воде с детьми<br />от 0 до 5 лет
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/90 mb-8">
+          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
             <span className="text-amber-400 font-bold">Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка</span>
           </p>
           
-          <div className="flex flex-col gap-4 mb-8">
-            <p className="text-xl md:text-2xl text-white font-bold flex items-center gap-3">
-              <Icon name="Zap" className="text-cyan-400" size={28} />
+          <div className="flex flex-col gap-4 max-w-2xl mx-auto">
+            <p className="text-2xl md:text-3xl text-white font-bold flex items-center justify-center gap-3">
+              <Icon name="Zap" className="text-cyan-400" size={32} />
               Старт сразу после оплаты
             </p>
-            <p className="text-xl md:text-2xl text-white font-bold flex items-center gap-3">
-              <Icon name="Clock" className="text-cyan-400" size={28} />
+            <p className="text-2xl md:text-3xl text-white font-bold flex items-center justify-center gap-3">
+              <Icon name="Clock" className="text-cyan-400" size={32} />
               Доступ 4 месяца
             </p>
-          </div>
-            </div>
           </div>
         </div>
 
