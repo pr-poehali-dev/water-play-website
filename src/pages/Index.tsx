@@ -27,9 +27,10 @@ const Index = () => {
           className="absolute inset-0 z-0"
           style={{
             backgroundImage: 'url(https://cdn.poehali.dev/files/db149995-bc8a-4c68-9b84-66c5e417002e.jpg)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            opacity: 0.3
+            backgroundSize: 'contain',
+            backgroundPosition: 'bottom right',
+            backgroundRepeat: 'no-repeat',
+            opacity: 0.2
           }}
         />
         
