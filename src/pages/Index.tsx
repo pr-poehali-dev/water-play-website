@@ -43,7 +43,7 @@ const Index = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            Как <span className="text-red-500 font-bold">с помощью игр</span> выстроить эффективный тренировочный процесс и добиться результата от ребенка
+            <span className="text-red-500 font-bold">Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка</span>
           </p>
           
           <div className="flex flex-col gap-4 max-w-2xl mx-auto">
