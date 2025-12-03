@@ -26,7 +26,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/8e935dc8-0c6e-4053-8557-8f6b30fb085f/files/2954a9b3-13d4-4d4b-a757-e3e36595b196.jpg)',
+            backgroundImage: 'url(https://cdn.poehali.dev/files/db149995-bc8a-4c68-9b84-66c5e417002e.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             opacity: 0.3
@@ -43,7 +43,7 @@ const Index = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            <span className="text-red-500 font-bold">Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка</span>
+            <span className="text-amber-400 font-bold">Как с помощью игр выстроить эффективный тренировочный процесс и добиться результата от ребенка</span>
           </p>
           
           <div className="flex flex-col gap-4 max-w-2xl mx-auto">
